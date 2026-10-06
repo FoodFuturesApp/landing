@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Nova</title>
+  <meta name="description" content="Make everyday food choices that are better for you and the planet.">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="preload" href="assets/fonts/general-sans-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/general-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg hidden>
+    <!-- Framer's "Arrow Right" icon, same path and viewBox -->
+    <symbol id="arrow" viewBox="0 0 24 24">
+      <path transform="translate(3 4.5)" fill="currentColor" d="M17.781 8.031l-6.75 6.75c-.293.293-.769.293-1.062 0-.293-.293-.293-.768 0-1.061l5.471-5.47H.75C.336 8.25 0 7.915 0 7.5c0-.414.336-.75.75-.75h14.69L9.969 1.281c-.293-.293-.293-.768 0-1.061.293-.293.769-.293 1.062 0l6.75 6.75c.14.14.22.331.22.53 0 .199-.08.39-.22.531z"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="site-header__bar">
+      <div class="site-header__side">
+        <a class="site-header__logo" href="#top" aria-label="Food Futures home">
+          <img src="assets/img/logo.png" alt="" width="65" height="64">
+        </a>
+      </div>
+      <nav class="site-header__nav" aria-label="Main">
+        <a class="nav-link">About</a>
+        <a class="nav-link">Support</a>
+        <a class="nav-link">Blog</a>
+      </nav>
+      <div class="site-header__side site-header__side--end">
+        <a class="text-button" href="https://forms.gle/pmGonK4UhYX1k7f49">
+          Join Waitlist <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__content">
+        <a class="announce">Our actions shape the world <svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg></a>
+        <h1 class="display">Make a difference,<br>one meal at a time</h1>
+        <p class="lead">A data driven approach to lead a sustainable lifestyle through informed food choices.</p>
+        <a class="button" href="https://forms.gle/pmGonK4UhYX1k7f49">
+          <span>Join Waitlist</span><svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="intro" aria-label="App preview">
+      <div class="intro__stage">
+        <div class="phone">
+          <div class="phone__screen"><img class="phone__logo" src="assets/img/logo.png" alt="" width="246" height="243"></div>
+          <img class="phone__bevel" src="assets/img/phone-bevel.png" alt="" width="323" height="660">
+        </div>
+        <div class="widget widget--co2">
+          <div class="glass-card" data-appear style="--from: 0 40px; --delay: .4s">
+            <img src="assets/img/card-co2.png" alt="Carbon footprint per serving, from plant-based at 200 g CO2e to beef at 1900 g" width="400" height="150">
+          </div>
+        </div>
+        <div class="widget widget--boundaries">
+          <div class="glass-card" data-appear style="--from: 40px 0; --delay: .2s">
+            <img src="assets/img/card-boundaries.png" alt="Planetary boundaries balanced with nutrition needs" width="352" height="190">
+          </div>
+        </div>
+        <div class="widget widget--soy">
+          <div class="glass-card" data-appear style="--from: -60px 0">
+            <img src="assets/img/card-soy.png" alt="Impact chart for soy per 100 g of protein, marked eat often" width="332" height="356">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="story">
+      <article class="story__block">
+        <p class="story__label" data-reveal="top"><span>We Believe in Balanced Eating</span></p>
+        <p class="story__text" data-reveal="left"><span>Sustainable eating does not have to mean strict diets or extremes. We support realistic, balanced choices that are healthier for both people and planet.</span></p>
+        <figure class="story__art"><img src="assets/img/story-balanced.png" alt="" width="400" height="420"></figure>
+      </article>
+      <article class="story__block">
+        <p class="story__label" data-reveal="top"><span>We Look at the Bigger Picture</span></p>
+        <p class="story__text" data-reveal="left"><span>Sustainability is more than carbon alone. We balance nutrition with peer-reviewed insights on water, land, biodiversity, and climate impact.</span></p>
+        <figure class="story__art story__art--fit"><img src="assets/img/story-bigger-picture.png" alt="" width="400" height="420"></figure>
+      </article>
+      <article class="story__block">
+        <p class="story__label" data-reveal="top"><span>We’re Better Together</span></p>
+        <p class="story__text" data-reveal="left"><span>Making sustainable choices alone can feel discouraging, so we help visualize impact at both personal and collective levels.</span></p>
+        <figure class="story__art story__art--fit story__art--last"><img src="assets/img/story-together.png" alt="" width="400" height="420"></figure>
+      </article>
+    </div>
+
+    <section class="steps" aria-labelledby="steps-title">
+      <div class="steps__inner">
+        <h2 class="heading" id="steps-title">How it Works</h2>
+        <div class="steps__frame">
+          <ol class="steps__list">
+            <li class="step is-active">
+              <span class="step__track"><span class="step__fill"></span></span>
+              <button class="step__head" type="button" aria-expanded="true" aria-controls="step-1">
+                <span class="step__num">01</span><span class="step__title">View Impact</span>
+              </button>
+              <div class="step__body" id="step-1">
+                <div class="step__body-inner">
+                  <p class="step__text">A brief description of this amazing project and what makes it special.</p>
+                  <div class="step__media"><img src="assets/img/step-view.png" alt="App screen showing a meal's impact" width="1024" height="914"></div>
+                </div>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step__track"><span class="step__fill"></span></span>
+              <button class="step__head" type="button" aria-expanded="false" aria-controls="step-2">
+                <span class="step__num">02</span><span class="step__title">Validate Impact</span>
+              </button>
+              <div class="step__body" id="step-2" inert>
+                <div class="step__body-inner">
+                  <p class="step__text">Building innovative solutions with modern technologies and best practices.</p>
+                  <div class="step__media"><img src="assets/img/step-validate.png" alt="App screen asking for a picture of your meal" width="1024" height="914" loading="lazy"></div>
+                </div>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step__track"><span class="step__fill"></span></span>
+              <button class="step__head" type="button" aria-expanded="false" aria-controls="step-3">
+                <span class="step__num">03</span><span class="step__title">Track Impact</span>
+              </button>
+              <div class="step__body" id="step-3" inert>
+                <div class="step__body-inner">
+                  <p class="step__text">Planning and executing comprehensive strategies for digital success.</p>
+                  <div class="step__media"><img src="assets/img/step-track.png" alt="App screen tracking lunch impact over time" width="1024" height="914" loading="lazy"></div>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__inner">
+        <h2 class="heading cta__title">Make everyday food choices that are better for you and the planet.</h2>
+        <a class="button" href="https://forms.gle/pmGonK4UhYX1k7f49">
+          <span>Join Waitlist</span><svg class="arrow" aria-hidden="true"><use href="#arrow"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__row">
+      <div class="site-footer__meta">
+        <p>© 2026</p>
+        <nav class="site-footer__links" aria-label="Footer">
+          <a href="#">Company</a>
+          <a href="#">Support</a>
+          <a href="#">Resources</a>
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms of use</a>
+        </nav>
+      </div>
+      <div class="site-footer__social">
+        <p>Instagram</p>
+        <p>TikTok</p>
+        <p>LinkedIn</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
