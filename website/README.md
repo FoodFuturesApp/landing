@@ -30,6 +30,7 @@ Measured in headless Chrome at 1440, 1000, 810 and 390px against the live site:
 
 - No "Made in Framer" badge.
 - Added keyboard focus rings, a themed text selection, and reduced-motion support (no reveals, no auto-advance).
-- Kept the original's quirks on purpose: the phone mockup's screen is empty on phones (Framer collapses it), How it Works uses the template's placeholder copy, and the nav links go nowhere.
+- Kept the original's quirks on purpose: the phone mockup's screen is empty on phones (Framer collapses it), and How it Works still uses the template's placeholder copy (to be replaced, see `docs/context/2026-10-09-google-startups-site-fixes.md`).
+- Changed for launch (2026-10-09): tab title is "Food Futures" (was the template's "Nova"), the dead header and footer links are removed, the footer links to `privacy.html` and info@foodfuturesapp.com, and the hero tag links to the story section.
 
 Images, logo and copy belong to the original site. Fonts: General Sans (Fontshare free license), Inter and DM Mono (SIL Open Font License).
