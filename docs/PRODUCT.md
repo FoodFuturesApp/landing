@@ -1,6 +1,6 @@
 # Food Futures: product context
 
-Status: early draft, written 2026-10-06 from the public website only. Replace guesses with facts as Vineeth shares them.
+Status: draft. Started 2026-10-06 from the public website, extended 2026-10-09 with Shreya's pilot flyer and pitch deck (see `docs/context/2026-10-09-shreya-pitch-and-pilot-docs.md`).
 
 ## What we know (from foodfutures.framer.website)
 
@@ -19,11 +19,19 @@ Status: early draft, written 2026-10-06 from the public website only. Replace gu
   - Lunch impact tracking over time.
 - **Brand:** logo is a globe with "Food Futures" wordmark. Page title still says "Nova" (the Framer template name).
 
+## From Shreya's flyer and pitch deck (2026-10-09)
+
+- **What it is:** a student-facing app combining nutrition, sustainability insights and habit tracking. Tagline: "Empowering people to build low-impact food habits that support both personal and planetary wellbeing."
+- **Origin:** developed through the EU Horizon ATARCA project in Finland, now advanced through the Climatebase Fellowship. Screens show Helsinki campus cafes (UniCafe).
+- **Users and market:** university students. A no-cost Fall 2026 pilot is being offered to early U.S. campus partners.
+- **Problem it names:** people can't tell if their food choices matter, current tools look at carbon only (not water, land, animal welfare), and impact figures ignore where food is grown, transported and packaged.
+- **Screens:** choose where you eat (at home or a campus outlet), a menu with a per-meal impact index graded A to F, and "take a picture of your meal" to validate what you ate. Tabs: Lunch Menu, My Impact History, My Wallet.
+- **Spelling:** the flyer and deck write "FoodFutures"; the website writes "Food Futures".
+
 ## Open questions for Vineeth
 
-- Target users and launch markets?
-- Platform: iOS, Android, web, or all?
-- Data sources for impact numbers (which datasets or papers)?
-- How does "validate impact" work: photo recognition, manual logging, receipts?
-- What is in scope for "build the whole thing": app, backend, website, data pipeline?
-- Team, timeline, and what Vineeth owns.
+- Platform: iOS, Android, or both? (Screens are a phone app.)
+- Data sources for the impact numbers? The deck mentions an index ("FWI", graded A to F) without defining it.
+- What is "My Wallet"?
+- What is in scope for "build the whole thing": app, backend, website, data pipeline? What does Vineeth own?
+- Team and timeline beyond the Fall 2026 pilot.
