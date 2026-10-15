@@ -28,10 +28,21 @@ Status: draft. Started 2026-10-06 from the public website, extended 2026-10-09 w
 - **Screens:** choose where you eat (at home or a campus outlet), a menu with a per-meal impact index graded A to F, and "take a picture of your meal" to validate what you ate. Tabs: Lunch Menu, My Impact History, My Wallet.
 - **Spelling:** the flyer and deck write "FoodFutures"; the website writes "Food Futures".
 
-## Open questions for Vineeth
+## Answered by the shared docs (2026-10-15)
 
-- Platform: iOS, Android, or both? (Screens are a phone app.)
-- Data sources for the impact numbers? The deck mentions an index ("FWI", graded A to F) without defining it.
-- What is "My Wallet"?
-- What is in scope for "build the whole thing": app, backend, website, data pipeline? What does Vineeth own?
-- Team and timeline beyond the Fall 2026 pilot.
+One-page summary: `docs/QUICK-CONTEXT.md`. Detail in `docs/context/2026-10-15-*.md`.
+
+- **Platform:** web app first (leaning web over app stores). The prototype is Expo and also runs in the browser.
+- **Data sources:** Poore and Nemecek 2018 for impacts, USDA FNDDS 2021 to 2023 for nutrition. FWI = Food Wellbeing Index, six levels A to F, summed over carbon, water and land (see data note).
+- **My Wallet:** tokens for good choices, redeemable at campus partners. Idea stage.
+- **Scope and owners:** Vineeth owns web development (with Divyan) and cloud/infrastructure. Shreya owns product and UX/UI. Joshua owns the dataset, Arshiya outreach.
+- **Timeline:** Q4 2026 web MVP with Penn State menu, Q1 2027 pilot with 3 to 5 universities, up to 500 users.
+
+## Open questions
+
+- Pricing for universities, and which universities are in talks.
+- Who confirms the rule that turns scores into Eat often, sometimes, rarely.
+- One public name: Food Wellbeing Index vs Food Wellbeing & Suffering Index.
+- Are the "Fall 2026" pilot (flyer) and "Q1 2027" pilot (plan) the same pilot?
+- Real copy for the three "How it Works" steps (draft options are in the Figma note).
+- Instagram and TikTok links for the website footer.
