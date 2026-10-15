@@ -29,6 +29,10 @@ Read `docs/QUICK-CONTEXT.md` first (one page). Go deeper only as needed:
 - Origin: EU Horizon ATARCA (Finland), Climatebase Fellowship.
 - Founder and contact: Shreya Sood. Dev and infra: Vineeth.
 
+## Canonical sources
+
+Figma FF page (not Page 1 or Biochar), dataset tab "Final 6 ranks simplified", Penn State daily menu (public HTML, no API, ask before scraping), private repo `rlratcliffe/food-futures`. Full list in `docs/context/2026-10-15-sources-index.md`.
+
 ## Rules
 
 - Never edit the source Google docs, sheet, Figma, Mural, LinkedIn or the private repo. Read only. Take notes and local copies instead.

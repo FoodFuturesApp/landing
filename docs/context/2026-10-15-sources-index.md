@@ -11,7 +11,16 @@ Vineeth shared these as the core context for Food Futures. All were read-only. N
 | Figma "landing page gif" (3 pages) | Design file: app screens, app flow, marketing art | Chrome, view only, layer text extracted | `data/sources/figma-text-extract.md` |
 | Mural "FoodFutures" board | One-quarter roadmap, Oct to Dec 2026 | Chrome, view only | notes only |
 | LinkedIn company page | 4 posts, page details | Chrome, view only | notes only |
+| "Important links for Dev team" (Google Doc, by Shreya) | The team's official link hub: Figma (FF page), GitHub repo, Penn State menu, environmental dataset, Proposal, Execution Plan, Mural | Chrome, view only | none needed (links only) |
 | Pilot invitation flyer, pitch deck (PDFs) | See `2026-10-09-shreya-pitch-and-pilot-docs.md` | Read | in Downloads, not copied |
+
+## Canonical sources (per the dev-team links doc)
+
+- Figma: work from the **FF page** (node 250-1282), not Page 1 or Biochar.
+- Dataset: the **"Final 6 ranks simplified"** tab (sheet gid 584536480) is the one the dev team links to. Treat it as current.
+- Menu data: Penn State daily menu, https://www.absecom.psu.edu/menus/user-pages/daily-menu.cfm (see data note).
+- Code: github.com/rlratcliffe/food-futures (private).
+- Plan: Project Proposal and Project Execution Plan Google Docs. Roadmap: the Mural board.
 
 ## Where the notes are
 

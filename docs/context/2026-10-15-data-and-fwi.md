@@ -6,6 +6,8 @@ Source: Google Sheet "List of products" (13 tabs). Local copy: `data/sources/lis
 
 Environmental numbers come mainly from **Poore and Nemecek 2018** (Science, doi:10.1126/science.aaq0216), global averages per kg. They are converted to per 100 g of food (and per 100 g protein and per 100 kcal). Each of three impacts (carbon, water, land) is placed in one of six categories by its share of the maximum value in the table. The three categories are summed into a total score, which gives an environmental band. Combined with protein density, that gives an **Eat often / Eat sometimes / Eat rarely** label. Nutrition values are from USDA FNDDS 2021 to 2023 (provisional).
 
+**Canonical tab:** the dev-team links doc points to "Final 6 ranks simplified" (gid 584536480). Use it as the current scoring table.
+
 ## Six-level scale
 
 | Category | % of max | Letter | Meaning |
@@ -78,6 +80,15 @@ Teaching example used in LinkedIn: shrimp has much lower carbon than beef but mu
 ## Data wishes (notes tab)
 
 Specific data for protein and carb foods; processed vs unprocessed (especially plant-based meat); organic vs non-organic (coffee); milk vs plant milks. Watch-outs: trade-offs between impacts. Possible labels: FairTrade, Rainforest Alliance, USDA Organic, animal welfare (cage-free), local. Market target: university students. Fruit and vegetable packaging and material footprint (waste vs packaging trade-off). Meat byproducts. Funding ideas (EAT-Lancet). How to follow menu changes seamlessly.
+
+## Penn State menu (first menu source)
+
+Checked 2026-10-15, public page, no login: https://www.absecom.psu.edu/menus/user-pages/daily-menu.cfm
+- Pick a date (7 days shown), a meal (Breakfast, Lunch, Dinner, Late Night) and a location. Locations include University Park dining (East Food District @ Findlay, North @ Warnock, Pollock Dining Commons, South @ Redifer, West @ Waring) and many branch campuses (Altoona, Beaver, Behrend, Berks, Brandywine, Greater Allegheny, Harrisburg, Hazleton, Mont Alto, and more).
+- Items are grouped by category (Entrees, Vegetables/Starches, Salad Bar, Desserts, Fruit Bar). One lunch at one location listed 85 items.
+- Each item links to `nutrition-label.cfm?mid=<id>`, a page with serving size, calories, fat, saturated and trans fat, cholesterol, sodium, carbs, fibre, sugars, added sugars, protein, some vitamins and minerals, and the **ingredient list** (allergens must be read from it).
+- No API was seen, so ingestion would mean parsing HTML. The Mural notes say to look at how to extract this data. The plan also says to secure permission to use a university's menu first, so ask Penn State Food Services before any automated pulling.
+- Mapping menu items to the index needs a step that matches an item (for example "Fajita Chicken") to a protein or carb category in the sheet.
 
 ## Naming
 

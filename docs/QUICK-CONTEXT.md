@@ -33,6 +33,10 @@ Pale lime background (#F5FFE1, #E2F0CE), green primary (#2D9B6F, #00A577), yello
 
 Private prototype `rlratcliffe/food-futures`: Expo (React Native) plus FastAPI plus Supabase, mock data only, auth removed, Impact and Wallet screens unbuilt. Website: `website/` (hand-built copy of the Framer site), deploys from `main` to GitHub Pages. Public repo: FoodFuturesApp/landing.
 
+## Dev team link hub (Shreya's "Important links for Dev team" doc)
+
+Figma FF page (node 250-1282), `rlratcliffe/food-futures`, Penn State menu page, dataset tab "Final 6 ranks simplified", Project Proposal, Project Execution Plan, Mural. Details in `docs/context/2026-10-15-sources-index.md`.
+
 ## Where things are
 
 - Website and Google application fixes: `docs/context/2026-10-09-google-startups-site-fixes.md`
