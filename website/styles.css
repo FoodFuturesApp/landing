@@ -368,6 +368,8 @@ a { color: inherit; text-decoration: none; cursor: pointer; }
 }
 .step.is-active .step__fill { animation: step-progress 5s linear forwards; }
 @keyframes step-progress { to { transform: scaleY(1); } }
+/* Keyboard readers hold the open card still (WCAG 2.2.2). */
+.steps__list:has(:focus-visible) .step__fill { animation-play-state: paused; }
 
 .step__head {
   all: unset;
